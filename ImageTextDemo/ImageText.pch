@@ -1,0 +1,42 @@
+//
+//  ImageText.pch
+//  ImageTextDemo
+//
+//  Created by Justec_Mac on 2018/5/23.
+//  Copyright © 2018年 JustecMac. All rights reserved.
+//
+
+#ifndef ImageText_pch
+#define ImageText_pch
+
+#import "UIView+Extension.h"
+#import "MSingleton.h"
+#import "MJExtension.h"
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define MY_Color(r, g, b, a) [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a]
+#define MainTextColor MY_Color(0, 165, 255, 1)
+
+////////通知
+#define SendMsgSuccess @"SendMsgSuccess"
+#define CurrentMsg @"CurrentMsg"
+#define PerDisConnected @"PerDisConnected"
+#define ReloadData @"ReloadData"
+
+// 表情选中的通知
+#define EmotionDidSelectedNotification @"EmotionDidSelectedNotification"
+// 点击删除按钮的通知
+#define EmotionDidDeletedNotification @"EmotionDidDeletedNotification"
+// 通知里面取出交通标志用的key
+#define SelectedEmotion @"SelectedEmotion"
+
+/** 交通标志相关 */
+// 交通标志的最大行数
+#define EmotionMaxRows 3
+// 交通标志的最大列数
+#define EmotionMaxCols 7
+// 每页最多显示多少个交通表情
+#define EmotionMaxCountPerPage (EmotionMaxRows * EmotionMaxCols - 1)
+
+#endif /* ImageText_pch */

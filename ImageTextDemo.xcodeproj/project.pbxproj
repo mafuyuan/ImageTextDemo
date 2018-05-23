@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A61AFAFC20B4F552000F4DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFAFB20B4F552000F4DC3 /* AppDelegate.m */; };
 		A61AFAFF20B4F552000F4DC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFAFE20B4F552000F4DC3 /* ViewController.m */; };
 		A61AFB0220B4F552000F4DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61AFB0020B4F552000F4DC3 /* Main.storyboard */; };
 		A61AFB0520B4F552000F4DC3 /* ImageTextDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB0320B4F552000F4DC3 /* ImageTextDemo.xcdatamodeld */; };
 		A61AFB0720B4F554000F4DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61AFB0620B4F554000F4DC3 /* Assets.xcassets */; };
 		A61AFB0A20B4F554000F4DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61AFB0820B4F554000F4DC3 /* LaunchScreen.storyboard */; };
-		A61AFB0D20B4F554000F4DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB0C20B4F554000F4DC3 /* main.m */; };
 		A61AFB1720B4F554000F4DC3 /* ImageTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB1620B4F554000F4DC3 /* ImageTextDemoTests.m */; };
 		A61AFB2220B4F554000F4DC3 /* ImageTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB2120B4F554000F4DC3 /* ImageTextDemoUITests.m */; };
+		A61AFB3320B4F62B000F4DC3 /* SearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB3220B4F62B000F4DC3 /* SearchBarView.m */; };
+		A61AFB3E20B4F6C5000F4DC3 /* EmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB3620B4F6C4000F4DC3 /* EmotionKeyboard.m */; };
+		A61AFB3F20B4F6C5000F4DC3 /* EmtionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB3720B4F6C4000F4DC3 /* EmtionView.m */; };
+		A61AFB4020B4F6C5000F4DC3 /* EmotionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB3820B4F6C4000F4DC3 /* EmotionTextView.m */; };
+		A61AFB4120B4F6C5000F4DC3 /* EmotionGrideView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB3920B4F6C4000F4DC3 /* EmotionGrideView.m */; };
+		A61AFB4820B4F731000F4DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB4520B4F731000F4DC3 /* main.m */; };
+		A61AFB4920B4F731000F4DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB4620B4F731000F4DC3 /* AppDelegate.m */; };
+		A61AFB4D20B4F781000F4DC3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB4C20B4F781000F4DC3 /* UIView+Extension.m */; };
+		A61AFB5120B4F836000F4DC3 /* Emotion.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB4F20B4F836000F4DC3 /* Emotion.m */; };
+		A61AFB5420B4F93D000F4DC3 /* EmotionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB5220B4F93D000F4DC3 /* EmotionAttachment.m */; };
+		A61AFB5720B50AC8000F4DC3 /* ComposeToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB5620B50AC8000F4DC3 /* ComposeToolBar.m */; };
+		A61AFB5C20B50B44000F4DC3 /* EmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB5820B50B44000F4DC3 /* EmotionTool.m */; };
+		A61AFB5D20B50B44000F4DC3 /* DecoderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB5920B50B44000F4DC3 /* DecoderTool.m */; };
+		A61AFB7520B50B72000F4DC3 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB6320B50B72000F4DC3 /* MJPropertyType.m */; };
+		A61AFB7620B50B72000F4DC3 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB6620B50B72000F4DC3 /* NSObject+MJKeyValue.m */; };
+		A61AFB7720B50B72000F4DC3 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB6720B50B72000F4DC3 /* MJProperty.m */; };
+		A61AFB7820B50B72000F4DC3 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB6920B50B72000F4DC3 /* NSObject+MJCoding.m */; };
+		A61AFB7920B50B72000F4DC3 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB6B20B50B72000F4DC3 /* MJExtensionConst.m */; };
+		A61AFB7A20B50B72000F4DC3 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB6C20B50B72000F4DC3 /* NSObject+MJProperty.m */; };
+		A61AFB7B20B50B72000F4DC3 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB6E20B50B72000F4DC3 /* NSObject+MJClass.m */; };
+		A61AFB7C20B50B72000F4DC3 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB6F20B50B72000F4DC3 /* NSString+MJExtension.m */; };
+		A61AFB7D20B50B72000F4DC3 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB7020B50B72000F4DC3 /* MJPropertyKey.m */; };
+		A61AFB7E20B50B72000F4DC3 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A61AFB7420B50B72000F4DC3 /* MJFoundation.m */; };
+		A61AFBCC20B53791000F4DC3 /* EmotionIcons in Resources */ = {isa = PBXBuildFile; fileRef = A61AFBCB20B53791000F4DC3 /* EmotionIcons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +59,6 @@
 
 /* Begin PBXFileReference section */
 		A61AFAF720B4F552000F4DC3 /* ImageTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A61AFAFA20B4F552000F4DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A61AFAFB20B4F552000F4DC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A61AFAFD20B4F552000F4DC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A61AFAFE20B4F552000F4DC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A61AFB0120B4F552000F4DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,13 +66,61 @@
 		A61AFB0620B4F554000F4DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A61AFB0920B4F554000F4DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A61AFB0B20B4F554000F4DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A61AFB0C20B4F554000F4DC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A61AFB1220B4F554000F4DC3 /* ImageTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61AFB1620B4F554000F4DC3 /* ImageTextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTextDemoTests.m; sourceTree = "<group>"; };
 		A61AFB1820B4F554000F4DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A61AFB1D20B4F554000F4DC3 /* ImageTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61AFB2120B4F554000F4DC3 /* ImageTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTextDemoUITests.m; sourceTree = "<group>"; };
 		A61AFB2320B4F554000F4DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61AFB3120B4F62B000F4DC3 /* SearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarView.h; sourceTree = "<group>"; };
+		A61AFB3220B4F62B000F4DC3 /* SearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarView.m; sourceTree = "<group>"; };
+		A61AFB3420B4F661000F4DC3 /* ImageText.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageText.pch; sourceTree = "<group>"; };
+		A61AFB3620B4F6C4000F4DC3 /* EmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionKeyboard.m; sourceTree = "<group>"; };
+		A61AFB3720B4F6C4000F4DC3 /* EmtionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmtionView.m; sourceTree = "<group>"; };
+		A61AFB3820B4F6C4000F4DC3 /* EmotionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionTextView.m; sourceTree = "<group>"; };
+		A61AFB3920B4F6C4000F4DC3 /* EmotionGrideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionGrideView.m; sourceTree = "<group>"; };
+		A61AFB3A20B4F6C4000F4DC3 /* EmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionKeyboard.h; sourceTree = "<group>"; };
+		A61AFB3B20B4F6C4000F4DC3 /* EmtionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmtionView.h; sourceTree = "<group>"; };
+		A61AFB3C20B4F6C4000F4DC3 /* EmotionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionTextView.h; sourceTree = "<group>"; };
+		A61AFB3D20B4F6C4000F4DC3 /* EmotionGrideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionGrideView.h; sourceTree = "<group>"; };
+		A61AFB4420B4F731000F4DC3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A61AFB4520B4F731000F4DC3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A61AFB4620B4F731000F4DC3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A61AFB4B20B4F781000F4DC3 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		A61AFB4C20B4F781000F4DC3 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		A61AFB4F20B4F836000F4DC3 /* Emotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emotion.m; sourceTree = "<group>"; };
+		A61AFB5020B4F836000F4DC3 /* Emotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emotion.h; sourceTree = "<group>"; };
+		A61AFB5220B4F93D000F4DC3 /* EmotionAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionAttachment.m; sourceTree = "<group>"; };
+		A61AFB5320B4F93D000F4DC3 /* EmotionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionAttachment.h; sourceTree = "<group>"; };
+		A61AFB5520B50AC8000F4DC3 /* ComposeToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeToolBar.h; sourceTree = "<group>"; };
+		A61AFB5620B50AC8000F4DC3 /* ComposeToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeToolBar.m; sourceTree = "<group>"; };
+		A61AFB5820B50B44000F4DC3 /* EmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionTool.m; sourceTree = "<group>"; };
+		A61AFB5920B50B44000F4DC3 /* DecoderTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoderTool.m; sourceTree = "<group>"; };
+		A61AFB5A20B50B44000F4DC3 /* EmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionTool.h; sourceTree = "<group>"; };
+		A61AFB5B20B50B44000F4DC3 /* DecoderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoderTool.h; sourceTree = "<group>"; };
+		A61AFB6020B50B72000F4DC3 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		A61AFB6120B50B72000F4DC3 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		A61AFB6220B50B72000F4DC3 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		A61AFB6320B50B72000F4DC3 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		A61AFB6420B50B72000F4DC3 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		A61AFB6520B50B72000F4DC3 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		A61AFB6620B50B72000F4DC3 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		A61AFB6720B50B72000F4DC3 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		A61AFB6820B50B72000F4DC3 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		A61AFB6920B50B72000F4DC3 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		A61AFB6A20B50B72000F4DC3 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		A61AFB6B20B50B72000F4DC3 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		A61AFB6C20B50B72000F4DC3 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		A61AFB6D20B50B72000F4DC3 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		A61AFB6E20B50B72000F4DC3 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		A61AFB6F20B50B72000F4DC3 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		A61AFB7020B50B72000F4DC3 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		A61AFB7120B50B72000F4DC3 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		A61AFB7220B50B72000F4DC3 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		A61AFB7320B50B72000F4DC3 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		A61AFB7420B50B72000F4DC3 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		A61AFB7F20B50CAC000F4DC3 /* MSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSingleton.h; sourceTree = "<group>"; };
+		A61AFBCB20B53791000F4DC3 /* EmotionIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EmotionIcons; path = ImageTextDemo/EmotionIcons; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +171,17 @@
 		A61AFAF920B4F552000F4DC3 /* ImageTextDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A61AFAFA20B4F552000F4DC3 /* AppDelegate.h */,
-				A61AFAFB20B4F552000F4DC3 /* AppDelegate.m */,
+				A61AFB4220B4F731000F4DC3 /* Main */,
+				A61AFB3020B4F62B000F4DC3 /* View */,
 				A61AFAFD20B4F552000F4DC3 /* ViewController.h */,
 				A61AFAFE20B4F552000F4DC3 /* ViewController.m */,
 				A61AFB0020B4F552000F4DC3 /* Main.storyboard */,
 				A61AFB0620B4F554000F4DC3 /* Assets.xcassets */,
 				A61AFB0820B4F554000F4DC3 /* LaunchScreen.storyboard */,
 				A61AFB0B20B4F554000F4DC3 /* Info.plist */,
-				A61AFB0C20B4F554000F4DC3 /* main.m */,
 				A61AFB0320B4F552000F4DC3 /* ImageTextDemo.xcdatamodeld */,
+				A61AFB3420B4F661000F4DC3 /* ImageText.pch */,
+				A61AFBCA20B5374E000F4DC3 /* Supporting Files */,
 			);
 			path = ImageTextDemo;
 			sourceTree = "<group>";
@@ -133,6 +202,131 @@
 				A61AFB2320B4F554000F4DC3 /* Info.plist */,
 			);
 			path = ImageTextDemoUITests;
+			sourceTree = "<group>";
+		};
+		A61AFB3020B4F62B000F4DC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB3520B4F6C4000F4DC3 /* EmotionView */,
+				A61AFB3120B4F62B000F4DC3 /* SearchBarView.h */,
+				A61AFB3220B4F62B000F4DC3 /* SearchBarView.m */,
+				A61AFB5520B50AC8000F4DC3 /* ComposeToolBar.h */,
+				A61AFB5620B50AC8000F4DC3 /* ComposeToolBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A61AFB3520B4F6C4000F4DC3 /* EmotionView */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB3A20B4F6C4000F4DC3 /* EmotionKeyboard.h */,
+				A61AFB3620B4F6C4000F4DC3 /* EmotionKeyboard.m */,
+				A61AFB3B20B4F6C4000F4DC3 /* EmtionView.h */,
+				A61AFB3720B4F6C4000F4DC3 /* EmtionView.m */,
+				A61AFB3C20B4F6C4000F4DC3 /* EmotionTextView.h */,
+				A61AFB3820B4F6C4000F4DC3 /* EmotionTextView.m */,
+				A61AFB3D20B4F6C4000F4DC3 /* EmotionGrideView.h */,
+				A61AFB3920B4F6C4000F4DC3 /* EmotionGrideView.m */,
+			);
+			path = EmotionView;
+			sourceTree = "<group>";
+		};
+		A61AFB4220B4F731000F4DC3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB5E20B50B72000F4DC3 /* Lib */,
+				A61AFB4E20B4F809000F4DC3 /* Model */,
+				A61AFB4A20B4F781000F4DC3 /* Category */,
+				A61AFB4320B4F731000F4DC3 /* Other */,
+				A61AFB4720B4F731000F4DC3 /* Tool */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A61AFB4320B4F731000F4DC3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB4620B4F731000F4DC3 /* AppDelegate.m */,
+				A61AFB4420B4F731000F4DC3 /* AppDelegate.h */,
+				A61AFB5320B4F93D000F4DC3 /* EmotionAttachment.h */,
+				A61AFB5220B4F93D000F4DC3 /* EmotionAttachment.m */,
+				A61AFB7F20B50CAC000F4DC3 /* MSingleton.h */,
+				A61AFB4520B4F731000F4DC3 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A61AFB4720B4F731000F4DC3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB5B20B50B44000F4DC3 /* DecoderTool.h */,
+				A61AFB5920B50B44000F4DC3 /* DecoderTool.m */,
+				A61AFB5A20B50B44000F4DC3 /* EmotionTool.h */,
+				A61AFB5820B50B44000F4DC3 /* EmotionTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A61AFB4A20B4F781000F4DC3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB4B20B4F781000F4DC3 /* UIView+Extension.h */,
+				A61AFB4C20B4F781000F4DC3 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A61AFB4E20B4F809000F4DC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB5020B4F836000F4DC3 /* Emotion.h */,
+				A61AFB4F20B4F836000F4DC3 /* Emotion.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A61AFB5E20B50B72000F4DC3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB5F20B50B72000F4DC3 /* MJExtension */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A61AFB5F20B50B72000F4DC3 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFB6020B50B72000F4DC3 /* MJPropertyKey.h */,
+				A61AFB6120B50B72000F4DC3 /* NSObject+MJClass.h */,
+				A61AFB6220B50B72000F4DC3 /* NSString+MJExtension.h */,
+				A61AFB6320B50B72000F4DC3 /* MJPropertyType.m */,
+				A61AFB6420B50B72000F4DC3 /* NSObject+MJProperty.h */,
+				A61AFB6520B50B72000F4DC3 /* MJExtensionConst.h */,
+				A61AFB6620B50B72000F4DC3 /* NSObject+MJKeyValue.m */,
+				A61AFB6720B50B72000F4DC3 /* MJProperty.m */,
+				A61AFB6820B50B72000F4DC3 /* MJFoundation.h */,
+				A61AFB6920B50B72000F4DC3 /* NSObject+MJCoding.m */,
+				A61AFB6A20B50B72000F4DC3 /* MJExtension.h */,
+				A61AFB6B20B50B72000F4DC3 /* MJExtensionConst.m */,
+				A61AFB6C20B50B72000F4DC3 /* NSObject+MJProperty.m */,
+				A61AFB6D20B50B72000F4DC3 /* MJPropertyType.h */,
+				A61AFB6E20B50B72000F4DC3 /* NSObject+MJClass.m */,
+				A61AFB6F20B50B72000F4DC3 /* NSString+MJExtension.m */,
+				A61AFB7020B50B72000F4DC3 /* MJPropertyKey.m */,
+				A61AFB7120B50B72000F4DC3 /* MJProperty.h */,
+				A61AFB7220B50B72000F4DC3 /* NSObject+MJKeyValue.h */,
+				A61AFB7320B50B72000F4DC3 /* NSObject+MJCoding.h */,
+				A61AFB7420B50B72000F4DC3 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		A61AFBCA20B5374E000F4DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61AFBCB20B53791000F4DC3 /* EmotionIcons */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +435,7 @@
 				A61AFB0A20B4F554000F4DC3 /* LaunchScreen.storyboard in Resources */,
 				A61AFB0720B4F554000F4DC3 /* Assets.xcassets in Resources */,
 				A61AFB0220B4F552000F4DC3 /* Main.storyboard in Resources */,
+				A61AFBCC20B53791000F4DC3 /* EmotionIcons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +460,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61AFB4D20B4F781000F4DC3 /* UIView+Extension.m in Sources */,
+				A61AFB5C20B50B44000F4DC3 /* EmotionTool.m in Sources */,
+				A61AFB4920B4F731000F4DC3 /* AppDelegate.m in Sources */,
+				A61AFB4820B4F731000F4DC3 /* main.m in Sources */,
 				A61AFAFF20B4F552000F4DC3 /* ViewController.m in Sources */,
+				A61AFB3F20B4F6C5000F4DC3 /* EmtionView.m in Sources */,
+				A61AFB4120B4F6C5000F4DC3 /* EmotionGrideView.m in Sources */,
+				A61AFB7D20B50B72000F4DC3 /* MJPropertyKey.m in Sources */,
+				A61AFB7620B50B72000F4DC3 /* NSObject+MJKeyValue.m in Sources */,
 				A61AFB0520B4F552000F4DC3 /* ImageTextDemo.xcdatamodeld in Sources */,
-				A61AFB0D20B4F554000F4DC3 /* main.m in Sources */,
-				A61AFAFC20B4F552000F4DC3 /* AppDelegate.m in Sources */,
+				A61AFB3E20B4F6C5000F4DC3 /* EmotionKeyboard.m in Sources */,
+				A61AFB7520B50B72000F4DC3 /* MJPropertyType.m in Sources */,
+				A61AFB5120B4F836000F4DC3 /* Emotion.m in Sources */,
+				A61AFB3320B4F62B000F4DC3 /* SearchBarView.m in Sources */,
+				A61AFB7720B50B72000F4DC3 /* MJProperty.m in Sources */,
+				A61AFB5420B4F93D000F4DC3 /* EmotionAttachment.m in Sources */,
+				A61AFB7820B50B72000F4DC3 /* NSObject+MJCoding.m in Sources */,
+				A61AFB7A20B50B72000F4DC3 /* NSObject+MJProperty.m in Sources */,
+				A61AFB7B20B50B72000F4DC3 /* NSObject+MJClass.m in Sources */,
+				A61AFB7920B50B72000F4DC3 /* MJExtensionConst.m in Sources */,
+				A61AFB7C20B50B72000F4DC3 /* NSString+MJExtension.m in Sources */,
+				A61AFB5720B50AC8000F4DC3 /* ComposeToolBar.m in Sources */,
+				A61AFB5D20B50B44000F4DC3 /* DecoderTool.m in Sources */,
+				A61AFB7E20B50B72000F4DC3 /* MJFoundation.m in Sources */,
+				A61AFB4020B4F6C5000F4DC3 /* EmotionTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +655,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3W292845J;
+				GCC_PREFIX_HEADER = /Users/jiasidemac/Desktop/ImageTextDemo/ImageTextDemo/ImageText.pch;
 				INFOPLIST_FILE = ImageTextDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +674,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A3W292845J;
+				GCC_PREFIX_HEADER = /Users/jiasidemac/Desktop/ImageTextDemo/ImageTextDemo/ImageText.pch;
 				INFOPLIST_FILE = ImageTextDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
