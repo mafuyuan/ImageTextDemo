@@ -71,7 +71,7 @@
             gridView = self.scrollView.subviews[i];
         }
         
-        // 给HMEmotionGridView设置表情数据
+        // 给EmotionGridView设置表情数据
         NSInteger loc = i * EmotionMaxCountPerPage;
         NSInteger len = EmotionMaxCountPerPage;
         if (loc + len > emotions.count) { // 对越界进行判断处理
@@ -94,8 +94,6 @@
     
     // 表情滚动到最前面
     self.scrollView.contentOffset = CGPointZero;
-    
-    //    HMLog(@"setEmotions---%d", self.scrollView.subviews.count);
 }
 
 - (void)layoutSubviews
